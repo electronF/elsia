@@ -1,0 +1,17 @@
+Le document ci-joint porte sur les moyens de mise en oeuvre du profil des eleves/apprenants, plus precisement il donnes des instructions sur la facon de formuler les forces et les defis d'un etudiant en fonction de l'evaluation faite de son profile. Il s'agit d'un guide referentiel qui qui aider à rédiger des évaluations nuancées et précises du profil (forces et defis) d'un etudiant.
+
+1. **Des échelles graduées** (niveaux 1 à 6) pour décrire les **forces/atouts** ("Strengths") d'un etudiant dans différents domaines :
+   - Compétences techniques et habiletés
+   - Comportements et traits de personnalité
+   - Forces orientées vers l'action
+   - Compétences éthiques/interpersonnelles
+   - Forces motivationnelles
+
+2. **Des échelles similaires pour les défis** ("Challenges") :
+   - Défis dans l'application pratique
+   - Défis éthiques/interpersonnels
+   - Défis motivationnels
+   - Défis liés aux traits de caractère
+   - Lacunes dans les capacités
+
+Chaque niveau propose des **mots-clés/phrases types** et des **exemples de phrases** pour aider à rédiger des évaluations nuancées et précises.

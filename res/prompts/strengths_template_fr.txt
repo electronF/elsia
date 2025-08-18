@@ -1,0 +1,19 @@
+En te basant sur les instructions fournis dans le document ci-joint, en respectant à la fois les echelles fournies, et les mots clés, donc des exemples ont ete fournie pour rendre les choses claires. Peux-tu me donner pour une liste de {number_items} forces d'un étudiant relativement à la liste des mots-clés suivante ?
+
+
+Note: 
+- Chaque element de la liste de sortie doit porter sur une et une seule force presente dans la liste d'entrée.
+- La liste des mots-clés en sortie doit être dans la même langue que celle dans laquelle tu les as reçus en entrée. 
+- Les suggestions de reformulation doivent s'appuyer sur le document pour creer des declinaisons possibles.
+- Les langues possibles sont l'anglais et le français. La sortie doit être une liste avec des phrases dans une forme canonique non genrée et sans nom ou prénom de forces/de défis de l'étudiant. exemple: "Demontre de bonnes connaissances des en geophysique"
+
+<input>
+{key_words}
+</input>
+
+La sortie doit contenir une liste de string et rien de plus.
+
+<output>
+[La sortie ici]
+</output>
+Retourne la sortie attendue sans aucun commentaire supplémentaire.

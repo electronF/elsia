@@ -1,0 +1,29 @@
+mon_api_recommandation/
+├── main.py                     # Le point d'entrée de l'application FastAPI
+├── requirements.txt            # Liste des dépendances du projet
+├── models/                     # Dossier pour tous les modèles de données Pydantic
+│   ├── __init__.py             # Fichier d'initialisation du package
+│   ├── strengths_models.py     # Modèles pour l'endpoint des forces
+│   ├── challenges_models.py    # Modèles pour l'endpoint des défis
+│   ├── goals_models.py         # Modèles pour l'endpoint des objectifs
+│   ├── means_models.py         # Modèles pour l'endpoint des moyens
+│   └── pi_models.py            # Modèles pour l'endpoint pour le plan d'intervention complet
+├── routers/                    # Contient les différents fichiers de routes
+│   ├── strengths_router.py     # Endpoint pour les forces
+│   ├── challenges_router.py    # Endpoint pour les défis
+│   ├── goals_router.py         # Endpoint pour les objectifs
+│   ├── means_router.py         # Endpoint pour les moyens
+│   ├── pi_router.py            # Endpoint pour le plan d'intervention complet
+│   └── __init__.py             # Fichier pour la reconnaissance du package
+├── recommendations/            # Sépare la logique métier (le code de génération des recommandations)
+│   ├── generate_strengths.py   # Logique pour les recommandations de forces
+│   └── ...                     # ... et d'autres modules de logique métier
+└── logs/
+    └── 2025-08-07/
+    │    ├── strengths_logs.log
+    │    ├── challenges_logs.log
+    │    └── ...
+    └── 2025-08-08/
+        ├── strengths_logs.log
+        ├── challenges_logs.log
+        └── ...

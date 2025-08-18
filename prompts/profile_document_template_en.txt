@@ -1,0 +1,17 @@
+The attached document focuses on how to implement student/learner profiles. More specifically, it provides instructions on how to formulate a student's strengths and challenges based on the assessment of their profile. This is a reference guide to help you write nuanced and accurate assessments of a student's profile (strengths and challenges).
+
+1. **Graded scales** (levels 1 to 6) to describe a student's **strengths/assets** in different areas:
+   - Technical skills and abilities
+   - Behaviours and personality traits
+   - Action-oriented strengths
+   - Ethical/interpersonal skills
+   - Motivational strengths
+
+2. **Similar scales for challenges**:
+   - Challenges in practical application
+   - Ethical/interpersonal challenges
+   - Motivational challenges
+   - Challenges related to character traits
+   - Gaps in abilities
+
+Each level offers **keywords/standard phrases** and **example sentences** to help write nuanced and accurate assessments.
