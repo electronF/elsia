@@ -1,10 +1,10 @@
-# Elsia: Recommendation Web API 🎓
+# Elsia: Recommendation Web API 
 
-Elsia is a web API built with **FastAPI** that provides intelligent recommendations to assist professionals in creating intervention plans for students with disabilities. This service gives client applications access to recommendation systems designed to support various stages of plan creation.
+Elsia is a web API built with **FastAPI** that provides intelligent recommendations to assist professionals in creating intervention plans for students. This service gives client applications access to recommendation systems designed to support various stages of plan creation.
 
 ***
 
-## Features ✨
+## Features
 
 * **Full Profile Analysis:** Allows professionals to describe a student's full profile (strengths, challenges, needs) using a free-form text or a complete document.
 * **Recommendation of Strengths and Challenges:** Identifies and recommends formulations of a student's strengths and challenges from a free-form description or keywords.
@@ -154,16 +154,21 @@ This endpoint recommends means to achieve learning goals based on the profile an
 * **Response**: `200 OK`
     ```json
     {
-      "data": [
-        {
-          "id": "a1b2x3c4-d5f6-7890-1234-56789@obcdef",
-          "description": "Use the Pomodoro Technique to structure study sessions."
-        },
-        {
-          "id": "f5e4d3c2-blol-9876-5432-10fedcho9876",
-          "description": "Practice deep breathing exercises before a test."
-        }
-      ],
+      "data": [ 
+            {
+                "goal": "Develop a weekly study schedule", 
+                "means": [
+                        {
+                            "id": "a1b2x3c4-d5f6-7890-1234-56789@obcdef",
+                            "description": "Use the Pomodoro Technique to structure study sessions."
+                        },
+                        {
+                            "id": "f5e4d3c2-blol-9876-5432-10fedcho9876",
+                            "description": "Practice deep breathing exercises before a test."
+                        }
+                    ],
+            },
+        ],
       "error": false
     }
     ```
@@ -182,8 +187,18 @@ This endpoint provides recommendations for strengths, challenges, needs, goals, 
     {
       "data": {
         "challenges": ["Difficulty with time management"],
-        "goals": ["Develop a weekly study schedule to improve time management."],
-        "means": ["Use the Pomodoro Technique to structure study sessions."],
+        "goals": [
+            {
+                "id": "a1b2x3c4-d5f6-7890-1234-56789@obcabb",
+                "description":"Develop a weekly study schedule to improve time management.",
+                "means": [
+                    {
+                        "id": "a1b2x3c4-d5f6-7890-1234-56789@ocfcdef",
+                        "description": "Use the Pomodoro Technique to structure study sessions."
+                    }
+                ]
+            }
+        ],
         "needs": ["Personalized study plan"],
         "strengths": ["Strong teamwork skills", "Excellent Listening skills"]
       }
