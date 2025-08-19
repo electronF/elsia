@@ -18,6 +18,14 @@ mon_api_recommandation/
 ├── recommendations/            # Sépare la logique métier (le code de génération des recommandations)
 │   ├── generate_strengths.py   # Logique pour les recommandations de forces
 │   └── ...                     # ... et d'autres modules de logique métier
+├── utils/            # Contient les fonctions et variables utilisées dans le projets 
+│   ├── logging_setup.py        # Contient les fonctions necessaires à la créations des logs journaliers.
+│   ├── variables.py            # Contient les variables d'environnement partargées par les differentes parties du projet
+│   └── __init__.py             # Fichier pour la reconnaissance du package
+├── prompts/                    # Contient les differents prompts utilisées par les modèles de languages
+│   ├── challenges_template_en.txt        # Contient le prompt template utilisées pour les challenges en version anglaise.
+│   ├── profile_document_template.txt            # Contient les instructions sur la facon d'utiliser le documents de reference aidant à la génération des forces et des defis.
+│   └── __init__.py             # Fichier pour la reconnaissance du package
 └── logs/
     └── 2025-08-07/
     │    ├── strengths_logs.log
