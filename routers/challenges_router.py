@@ -11,11 +11,11 @@ router = APIRouter(prefix="/challenges", tags=["Challenges"]) # Le tag change
 challenges_logger = setup_logger("challenges") # Le nom du logger est spécifique
 executor = ThreadPoolExecutor(max_workers=5)
 
-def get_recommendations_sync(age: float, description: str):
+def get_recommendations_sync(age: float, description: str, number_of_items: int=10):
     """Synchronous function for generating recommendations."""
     # Fonction synchrone pour la génération des recommandations.
     recommender = ChallengesRecommendation()
-    return recommender.recommend(age, description)
+    return recommender.recommend(age, description, number_of_items)
 
 # Exemples pour la documentation
 success_example = ChallengesResponse(data=["Difficulty with time management", "Stress before exams"], error=False)
